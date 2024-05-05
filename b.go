@@ -1,11 +1,12 @@
 package b
 
-import c "github.com/nobishino/gomodules-c/lib"
+import (
+	e "github.com/nobishino/gomodules-e"
+)
 
 type B struct {
 }
 
 func init() {
-	var c c.C
-	c.Method()
+	e.E()
 }
